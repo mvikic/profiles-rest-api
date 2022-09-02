@@ -30,7 +30,7 @@ with open(os.path.join(BASE_DIR, 'secret_key.txt')) as f:
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
 ALLOWED_HOSTS = [
-    'ec2-13-48-27-124.eu-north-1.compute.amazonaws.com',
+    'ec2-16-171-11-219.eu-north-1.compute.amazonaws.com',
     '127.0.0.1'
 ]
 # if not DEBUG:
